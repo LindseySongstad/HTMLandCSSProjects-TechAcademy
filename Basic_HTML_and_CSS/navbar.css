@@ -1,0 +1,20 @@
+.navbar a{
+  
+    background-color: #dddddd; 
+}
+ .navbar {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60px;
+
+ }
+
+ .navbar a:hover {
+     background-color: black;
+ }
+
+ p:hover {
+     color: #dddddd;
+ }
