@@ -87,6 +87,15 @@ body {
 	background-color:rgb(39, 97, 97);
 }
 
+.Column_4 {
+	float: left;  
+	width: 50%; /* This ensures one column takes up half the page width */
+	padding: 10px; 
+	padding-top: 3%; /* This ensures there is space between the top of the column and our headings */
+	height: 450px; /* This sets the height of our column at 400 pixels - if you change the text within the columns, you will need to adjust the column heights accordingly */
+	background-color: #f2f2f2; 
+}
+
 .Row:after { /* This inserts something after the content of selected elements */
 	content: ""; /* By leaving this blank, we are allowing the footer (covered lower down) to be displayed - removing it makes the footer overwrite a column */
 	display: table; /* The display property specifies the type of display behavior; the table value tells the browser to treat the element as a table */
