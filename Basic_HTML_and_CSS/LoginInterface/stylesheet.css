@@ -1,0 +1,26 @@
+body{
+    background-color: greenyellow;
+}
+
+#box{
+    margin-top: 50px;
+
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    text-align: center;
+    height: 300px;
+    width: 200px;
+    box-shadow: 10px 5px grey;
+    font: 1em sans-serif;
+    padding: 10px;
+}
+
+input{
+    height: 30px;
+    width: 100px;
+    margin: 10px;
+    border: none;
+    background-color: lightgray;
+    text-align: center;
+}
